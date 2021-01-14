@@ -28,19 +28,21 @@ namespace Site.Demos
                 switch (OperatorList.SelectedValue)
                 {
                     case "+":
-                        // result = myCalculator.Add(value1, value2);
+                        result = myCalculator.Add(value1, value2);
                         break;
                     case "-":
-                        // result = myCalculator.Subtract(value1, value2);
+                        result = myCalculator.Subtract(value1, value2);
                         break;
                     case "*":
-                        // result = myCalculator.Multiply(value1, value2);
+                        result = myCalculator.Multiply(value1, value2);
                         break;
                     case "/":
-                        // result = myCalculator.Divide(value1, value2);
+                        result = myCalculator.Divide(value1, value2);
                         break;
                 }
                 */
+                
+                /*
                 switch (OperatorList.SelectedValue)
                 {
                     case "+":
@@ -56,6 +58,7 @@ namespace Site.Demos
                         result = value1 / value2;
                         break;
                 }
+                */
                 ResultLabel.Text = result.ToString();                
             }
             else
